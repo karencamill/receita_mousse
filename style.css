@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-color: rgb(253, 0, 203);
+    height: 95px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.banner {
+    background-image: url(Mousse-de-Limao-TC.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.footer {
+    background-color: rgb(253, 0, 203);
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.card {
+    width: 500px;
+    margin: auto;
+    padding: 50px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 5px;
+    font-size: 300;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(253, 0, 203);
+    margin-bottom: 20px;
+}
+
+li {
+    list-style-position: inside;
+    line-height: 35px;
+}
+
+ul {
+    margin-bottom: 40px;
+}
+
+.botao {
+    text-decoration: none;
+    background-color: rgb(253, 0, 203);
+    color: white;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.botao:hover {
+    background-color: rgb(108, 4, 87);
+}
+
+.titulo-receita {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.link-footer {
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
